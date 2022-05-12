@@ -4,7 +4,7 @@
 
 import sys
 
-n = sys.argv[0] 
+n = sys.argv[1] 
 #n="00011111110000000000011110001111"
 one=0
 count=1
