@@ -5,7 +5,7 @@ on:
       number:
         description: 'Enter the number'
         required: true
-        default: 'first'
+        default: '100001111111'
         
   #push:
    # branches:
