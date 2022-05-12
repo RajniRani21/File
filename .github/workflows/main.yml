@@ -1,4 +1,4 @@
-name: workflow-dispatch-inputs
+name: main
 on:
   workflow_dispatch:
     inputs:
@@ -7,14 +7,6 @@ on:
         required: true
         default: '100001111111'
         
-  #push:
-   # branches:
-    #- main
-   
-
-  #pull_request:
-    #branches:
-    #- main  
 env:
   file: consecutive.py 
   number: ${{ github.event.inputs.number }}
