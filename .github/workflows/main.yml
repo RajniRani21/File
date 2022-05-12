@@ -9,7 +9,7 @@ on:
         
 env:
   file: consecutive.py 
-  number: ${{ github.event.inputs.number }}
+  #number: ${{ github.event.inputs.number }}
   
 jobs:
   check-python-version:
@@ -24,4 +24,5 @@ jobs:
 
     
       - name: python script
-        run: python $file $number
+        #run: python $file $number
+        run: python $file ${{ github.event.inputs.number }}
